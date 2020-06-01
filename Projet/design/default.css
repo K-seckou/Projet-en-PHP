@@ -1,0 +1,19 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+*{
+	box-sizing: border-box;
+}
+
+
+
+#hello{
+	background-image: url('../pictures/hello.jpg');
+
+	background-size: cover;
+
+	height: 500px;
+
+}
