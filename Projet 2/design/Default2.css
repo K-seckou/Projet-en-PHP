@@ -1,0 +1,98 @@
+html, body{
+	font-family: calibri;
+	background-color: #4b6584;
+	color: white;
+}
+*{
+	box-sizing: border-box;
+}
+header{
+	background-color: #a5b1c2;
+	display: inline-block;
+	border-radius: 7px;
+	border: 2px solid #34495e;
+	padding: 4px 10px;
+	box-shadow: 1px 1px 1px 1px #34495e	;
+}
+h1{
+	padding: 0px 15px;
+}
+ 
+form{
+	width: 45%;
+	margin: auto;
+}
+input{
+	margin-top: 4px;
+	border: 0.8px solid black;
+	border-radius: 3px;
+	margin-left: 50px;
+	padding: 3px 8px;
+
+}
+button{
+	margin-top: 15px;
+	padding: 5px 15px;
+	border-radius: 4px;
+	background-color: #a5b1c2;
+	border: 0.7px solid black;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 1px #34495e;
+
+}
+a{
+	text-decoration: none;
+	color: #e74c3c;
+}
+
+.container{
+	text-align: center;
+}
+
+#Connection1, h1{
+	padding: 0px 30px;
+}
+#Connection, form{
+	width: 35%;
+	margin: auto;
+}
+#error{
+	background-color: red;
+	text-align: center;
+	display: inline-block;
+	padding: 8px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px 1px #34495e;
+	border: 0.7px solid black;
+
+}
+#succes{
+	background-color: green;
+	text-align: center;
+	display: inline-block;
+	padding: 8px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px 1px #34495e;
+	border: 0.7px solid black;
+}
+#button1{
+	margin-top: 0px;
+	padding: 5px 15px;
+	border-radius: 4px;
+	background-color: #a5b1c2;
+	border: 0.7px solid black;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 1px #34495e;
+
+}
+#button2{
+	text-align: center;
+	margin: 0px auto;
+	padding: 5px 15px;
+	border-radius: 4px;
+	background-color: #a5b1c2;
+	border: 0.7px solid black;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 1px #34495e;
+
+}
