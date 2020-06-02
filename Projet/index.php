@@ -4,7 +4,7 @@ if(isset($_GET['q'])){
 	
 	$shortcut = htmlspecialchars($_GET['q']);
 	
-	$bdd = new PDO('mysql:host=localhost;dbname=bitly;charset=utf8', 'root', '');
+	$bdd = new PDO('mysql:host=goplombirs554.mysql.db;dbname=goplombirs554;charset=utf8', 'goplombirs554', 'FhmUunp2f');
 	
 	$req = $bdd->prepare('SELECT COUNT(*) FORM links AS x WHERE shortcut = ?');
 	
@@ -37,7 +37,7 @@ if (isset($_POST['url'])) {
 	$shortcut = crypt($url, rand());
 
 
-	$bdd = new PDO('mysql:host=localhost;dbname=bitly;charset=utf8', 'root', '');
+	$bdd = new PDO('mysql:host=goplombirs554.mysql.db;dbname=goplombirs554;charset=utf8', 'goplombirs554', 'FhmUunp2f');
 
 	$req = $bdd->prepare('select cout(*) as x from links where url = ?');
 
